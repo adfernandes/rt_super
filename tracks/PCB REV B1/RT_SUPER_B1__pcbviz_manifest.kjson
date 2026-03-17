@@ -1,0 +1,1850 @@
+{
+  "schema": "wn.pcb.pcbviz.manifest.v1",
+  "board": "RT_SUPER_B1",
+  "source_input": "RT_SUPER_B1.PrjPcb",
+  "pcbdoc_file": "RT_SUPER_B1.PCBdoc",
+  "files": {
+    "html": "RT_SUPER_B1__pcbviz.html"
+  },
+  "options": {
+    "include_drills": true,
+    "subtract_via_holes": false,
+    "include_top_bottom_copper_nets": true,
+    "include_step_models": true,
+    "board_thickness_mm": null,
+    "copper_thickness_mm": null,
+    "z_origin": "stack_midpoint",
+    "arc_segments_per_circle": 96,
+    "drill_segments_per_circle": 48,
+    "solder_mask_quality_profile": "default",
+    "solder_mask_boolean_tolerance_mm": 0.003,
+    "solder_mask_backend": "occt",
+    "solder_mask_occt_linear_deflection_mm": 0.14,
+    "solder_mask_occt_angular_deflection_deg": 30.0,
+    "solder_mask_top_only": false
+  },
+  "render_metadata": {
+    "schema": "wn.pcb.gltf.render_metadata.v1",
+    "units": "mm",
+    "z_origin": "stack_midpoint",
+    "board_thickness_mm": 0.8636,
+    "board_center_mils": [
+      31526.086163,
+      19573.145045
+    ],
+    "board_center_mm": [
+      800.762589,
+      497.157884
+    ],
+    "board_area_before_drills_mm2": 1492.487515,
+    "board_area_after_drills_mm2": 1449.884413,
+    "body_count": 1277,
+    "dielectric_body_count": 3,
+    "dielectric_surface_backend_requested": "occt",
+    "dielectric_surface_backend": "occt",
+    "copper_body_count": 267,
+    "component_pad_body_count": 589,
+    "solder_mask_body_count": 2,
+    "silkscreen_body_count": 393,
+    "extruded_component_body_count": 7,
+    "step_component_body_count": 16,
+    "dielectric_slices": [
+      {
+        "display_name": "Dielectric 1",
+        "layer_key": "V7_17039362",
+        "stack_index": 4,
+        "thickness_mm": 0.07112,
+        "z_top_mm": 0.4318,
+        "z_bottom_mm": 0.36068
+      },
+      {
+        "display_name": "Dielectric1",
+        "layer_key": "V7_17039361",
+        "stack_index": 6,
+        "thickness_mm": 0.72136,
+        "z_top_mm": 0.36068,
+        "z_bottom_mm": -0.36068
+      },
+      {
+        "display_name": "Dielectric 2",
+        "layer_key": "V7_17039363",
+        "stack_index": 8,
+        "thickness_mm": 0.07112,
+        "z_top_mm": -0.36068,
+        "z_bottom_mm": -0.4318
+      }
+    ],
+    "drill_cutters": {
+      "total": 55,
+      "pad_round": 53,
+      "pad_slot": 2,
+      "via_round": 0,
+      "plated": 53,
+      "non_plated": 2
+    },
+    "drill_subtraction": {
+      "include_drills": true,
+      "subtract_pad_holes_from_board": true,
+      "subtract_via_holes_from_board": false,
+      "cutter_count": 55
+    },
+    "copper_nets": {
+      "enabled": true,
+      "layers": {
+        "top": {
+          "display_name": "Top Layer",
+          "side": "top",
+          "stack_index": 3,
+          "layer_id": 1,
+          "thickness_mm": 0.03556,
+          "z_surface_mm": 0.4318,
+          "net_count": 95,
+          "mesh_count": 95,
+          "area_mm2": 194.173913,
+          "primitive_inputs": {
+            "tracks": 786,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 0,
+            "shapebased_regions": 0,
+            "texts": 0,
+            "pads": 6,
+            "vias": 206
+          },
+          "hole_cutter_count": 55
+        },
+        "mid2": {
+          "display_name": "GND",
+          "side": "inner",
+          "stack_index": 5,
+          "layer_id": 3,
+          "thickness_mm": 0.035001,
+          "z_surface_mm": 0.36068,
+          "net_count": 57,
+          "mesh_count": 57,
+          "area_mm2": 1165.532736,
+          "primitive_inputs": {
+            "tracks": 0,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 1,
+            "shapebased_regions": 1,
+            "texts": 0,
+            "pads": 4,
+            "vias": 206
+          },
+          "hole_cutter_count": 55
+        },
+        "mid1": {
+          "display_name": "PWR",
+          "side": "inner",
+          "stack_index": 7,
+          "layer_id": 2,
+          "thickness_mm": 0.035001,
+          "z_surface_mm": -0.36068,
+          "net_count": 57,
+          "mesh_count": 57,
+          "area_mm2": 1060.053478,
+          "primitive_inputs": {
+            "tracks": 183,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 6,
+            "shapebased_regions": 6,
+            "texts": 0,
+            "pads": 4,
+            "vias": 206
+          },
+          "hole_cutter_count": 55
+        },
+        "bottom": {
+          "display_name": "Bottom Layer",
+          "side": "bottom",
+          "stack_index": 9,
+          "layer_id": 32,
+          "thickness_mm": 0.03556,
+          "z_surface_mm": -0.4318,
+          "net_count": 58,
+          "mesh_count": 58,
+          "area_mm2": 180.095238,
+          "primitive_inputs": {
+            "tracks": 570,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 0,
+            "shapebased_regions": 0,
+            "texts": 0,
+            "pads": 4,
+            "vias": 206
+          },
+          "hole_cutter_count": 55
+        }
+      },
+      "layer_order": [
+        "top",
+        "mid2",
+        "mid1",
+        "bottom"
+      ]
+    },
+    "solder_mask": {
+      "enabled": true,
+      "color": "#FFFFFF",
+      "opacity": 0.5,
+      "surface_backend_requested": "occt",
+      "surface_backend": "occt",
+      "occt_linear_deflection_mm": 0.14,
+      "occt_angular_deflection_deg": 30.0,
+      "boolean_tolerance_mm": 0.003,
+      "layers": {
+        "top": {
+          "layer_id": 37,
+          "enabled": true,
+          "mesh_count": 1,
+          "area_mm2": 1029.195306,
+          "thickness_mm": 0.02,
+          "opening_area_mm2": 463.350195,
+          "primitive_inputs": {
+            "tracks": 0,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 23,
+            "shapebased_regions": 23,
+            "texts": 0,
+            "pads": 386,
+            "vias": 0
+          }
+        },
+        "bottom": {
+          "layer_id": 38,
+          "enabled": true,
+          "mesh_count": 1,
+          "area_mm2": 1198.790802,
+          "thickness_mm": 0.02,
+          "opening_area_mm2": 293.754699,
+          "primitive_inputs": {
+            "tracks": 0,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 0,
+            "shapebased_regions": 0,
+            "texts": 0,
+            "pads": 135,
+            "vias": 0
+          }
+        }
+      }
+    },
+    "silkscreen": {
+      "enabled": true,
+      "color": "#000000",
+      "layers": {
+        "top": {
+          "layer_id": 33,
+          "mesh_count": 230,
+          "area_mm2": 144.057022,
+          "thickness_mm": 0.012,
+          "primitive_inputs": {
+            "tracks": 82,
+            "arcs": 8,
+            "fills": 0,
+            "regions": 0,
+            "shapebased_regions": 0,
+            "texts": 68,
+            "pads": 0,
+            "vias": 0
+          }
+        },
+        "bottom": {
+          "layer_id": 34,
+          "mesh_count": 163,
+          "area_mm2": 308.499025,
+          "thickness_mm": 0.012,
+          "primitive_inputs": {
+            "tracks": 4,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 0,
+            "shapebased_regions": 0,
+            "texts": 49,
+            "pads": 0,
+            "vias": 0
+          }
+        }
+      }
+    },
+    "extruded_components": {
+      "enabled": true,
+      "instance_count": 7,
+      "geometry_count": 7,
+      "layers": {
+        "top": 6,
+        "bottom": 1
+      },
+      "association_counts": {
+        "component": 7,
+        "free": 0
+      },
+      "instances": [
+        {
+          "node_name": "ExtrudedInst_U1_0012",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "U1",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_U5_0014",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "U5",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_U5_0015",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "U5",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_U2_0017",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "U2",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_L3_0019",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "L3",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_U7_0025",
+          "association": "component",
+          "side": "bottom",
+          "source": "extruded",
+          "designator": "U7",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_L2_0035",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "L2",
+          "model_name": ""
+        }
+      ],
+      "skipped_invalid_modeltype": 74,
+      "skipped_missing_outline": 0,
+      "skipped_invalid_height": 0,
+      "texture_reference_count": 1,
+      "textured_instance_count": 0,
+      "textured_geometry_count": 0,
+      "texture_missing_file_count": 1,
+      "texture_load_failures": 0
+    },
+    "step_components": {
+      "enabled": true,
+      "available": true,
+      "source_to_scene_scale": 1000.0,
+      "instance_count": 74,
+      "geometry_count": 16,
+      "unique_model_count": 16,
+      "converted_model_count": 16,
+      "conversion_failures": 0,
+      "skipped_missing_model_ref": 0,
+      "skipped_unresolved_model_ref": 7,
+      "layers": {
+        "top": 42,
+        "bottom": 32
+      },
+      "association_counts": {
+        "component": 73,
+        "free": 1
+      },
+      "instances": [
+        {
+          "node_name": "Step_BTN1_0000",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "BTN1",
+          "model_name": "B3U_1100P.step"
+        },
+        {
+          "node_name": "Step_RESET1_0001",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "RESET1",
+          "model_name": "B3U_1100P.step"
+        },
+        {
+          "node_name": "Step_SW1_0002",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "SW1",
+          "model_name": "CHS-01TA.stp"
+        },
+        {
+          "node_name": "Step_SW2_0003",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "SW2",
+          "model_name": "CHS-01TA.stp"
+        },
+        {
+          "node_name": "Step_SW3_0004",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "SW3",
+          "model_name": "CHS-01TA.stp"
+        },
+        {
+          "node_name": "Step_U6_0005",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "U6",
+          "model_name": "User Library-SOIC8_(ATTINY12).step"
+        },
+        {
+          "node_name": "Step_C43_0006",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C43",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_J2_0007",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "J2",
+          "model_name": "10103594.stp"
+        },
+        {
+          "node_name": "Step_J3_0008",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "J3",
+          "model_name": "FTSH-105-01-X-DV-K-A.step"
+        },
+        {
+          "node_name": "Step_D2_0009",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "D2",
+          "model_name": "SOD-323.step"
+        },
+        {
+          "node_name": "Step_L1_0010",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "L1",
+          "model_name": "0805_1.45mm.STEP"
+        },
+        {
+          "node_name": "Step_U4_0011",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "U4",
+          "model_name": "User Library-sot143.step"
+        },
+        {
+          "node_name": "Step_C19_0013",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C19",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C42_0016",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C42",
+          "model_name": "0805_1.45mm.STEP"
+        },
+        {
+          "node_name": "Step_C2_0018",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C2",
+          "model_name": "0603_0.90mm.STEP"
+        },
+        {
+          "node_name": "Step_C10_0020",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C10",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C18_0021",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C18",
+          "model_name": "0603_0.90mm.STEP"
+        },
+        {
+          "node_name": "Step_D1_0022",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "D1",
+          "model_name": "SOD-323.step"
+        },
+        {
+          "node_name": "Step_U3_0023",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "U3",
+          "model_name": "ct-sot-23-5.stp"
+        },
+        {
+          "node_name": "Step_J1_0024",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "J1",
+          "model_name": "S2B-PH-SM4-TB.stp"
+        },
+        {
+          "node_name": "Step_Q1_0026",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "Q1",
+          "model_name": "SW3DPS-SOT-23-DEFAULT.STEP"
+        },
+        {
+          "node_name": "Step_C11_0027",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C11",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C1_0028",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C1",
+          "model_name": "0603_0.90mm.STEP"
+        },
+        {
+          "node_name": "Step_C3_0029",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C3",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C4_0030",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C4",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C5_0031",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C5",
+          "model_name": "0603_0.90mm.STEP"
+        },
+        {
+          "node_name": "Step_C8_0032",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C8",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C7_0033",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C7",
+          "model_name": "0603_0.90mm.STEP"
+        },
+        {
+          "node_name": "Step_C9_0034",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C9",
+          "model_name": "0603_0.90mm.STEP"
+        },
+        {
+          "node_name": "Step_R11_0036",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R11",
+          "model_name": "RESC1005X04N.step"
+        },
+        {
+          "node_name": "Step_R9_0037",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R9",
+          "model_name": "RESC1005X04N.step"
+        },
+        {
+          "node_name": "Step_C37_0038",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C37",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C41_0039",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C41",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C17_0040",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C17",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C39_0041",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C39",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C16_0042",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C16",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C40_0043",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C40",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "FreeModelStep_0044_RESC1005X04L_step",
+          "association": "free",
+          "side": "top",
+          "source": "step",
+          "designator": "",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_C38_0045",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C38",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_R5_0046",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R5",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_C35_0047",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C35",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_R15_0048",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R15",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_C26_0049",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C26",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C27_0050",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C27",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C28_0051",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C28",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C29_0052",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C29",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C31_0053",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C31",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C32_0054",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C32",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C33_0055",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C33",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C34_0056",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C34",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C24_0057",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C24",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C12_0058",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C12",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C13_0059",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C13",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C20_0060",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C20",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C21_0061",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C21",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C36_0062",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C36",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C22_0063",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C22",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C23_0064",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C23",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C14_0065",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C14",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C6_0066",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C6",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C25_0067",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C25",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C15_0068",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C15",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_C30_0069",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C30",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_R6_0070",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R6",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R7_0071",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R7",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R10_0072",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R10",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R2_0073",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R2",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R3_0074",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R3",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R12_0075",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R12",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R16_0076",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R16",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R1_0077",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R1",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R4_0078",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R4",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R14_0079",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R14",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R8_0080",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R8",
+          "model_name": "RESC1005X04L.step"
+        }
+      ],
+      "z_offset_source_counts": {
+        "model.3d.dz": 74,
+        "standoffheight_fallback": 0,
+        "default_zero": 0
+      },
+      "discovery": {
+        "model_record_count": 28,
+        "model_stream_count": 28,
+        "embedded_with_stream_count": 28,
+        "step_candidate_count": 28,
+        "classifications": {
+          "step": 28
+        },
+        "models": [
+          {
+            "index": 0,
+            "name": "B3U_1100P.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 1,
+            "name": "B3U_1100P.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 2,
+            "name": "CHS-01TA.stp",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 3,
+            "name": "User Library-SOIC8_(ATTINY12).step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 4,
+            "name": "0402_0.55mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 5,
+            "name": "10103594.stp",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 6,
+            "name": "FTSH-105-01-X-DV-K-A.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 7,
+            "name": "SOD-323.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 8,
+            "name": "0805_1.45mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 9,
+            "name": "User Library-sot143.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 10,
+            "name": "0805_1.45mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 11,
+            "name": "0603_0.90mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 12,
+            "name": "0603_0.90mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 13,
+            "name": "ct-sot-23-5.stp",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 14,
+            "name": "S2B-PH-SM4-TB.stp",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 15,
+            "name": "SW3DPS-SOT-23-DEFAULT.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 16,
+            "name": "0402_0.55mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 17,
+            "name": "0603_0.90mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 18,
+            "name": "0603_0.90mm.STEP",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 19,
+            "name": "RESC1005X04N.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 20,
+            "name": "CAPC0604X03L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 21,
+            "name": "CAPC0604X03L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 22,
+            "name": "CAPC0604X03L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 23,
+            "name": "RESC1005X04L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 24,
+            "name": "RESC1005X04L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 25,
+            "name": "CAPC0604X03L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 26,
+            "name": "RESC1005X04L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          },
+          {
+            "index": 27,
+            "name": "RESC1005X04L.step",
+            "format": "step",
+            "embedded": true,
+            "has_stream": true
+          }
+        ]
+      }
+    },
+    "model_groups": {
+      "component": {
+        "label": "Component Models",
+        "node_name": "PCB_Models_Component",
+        "default_visible": true,
+        "default_opacity": 1.0,
+        "instance_count": 80,
+        "instances": [
+          {
+            "node_name": "ExtrudedInst_L2_0035",
+            "association": "component",
+            "side": "top",
+            "source": "extruded",
+            "designator": "L2",
+            "model_name": ""
+          },
+          {
+            "node_name": "ExtrudedInst_L3_0019",
+            "association": "component",
+            "side": "top",
+            "source": "extruded",
+            "designator": "L3",
+            "model_name": ""
+          },
+          {
+            "node_name": "ExtrudedInst_U1_0012",
+            "association": "component",
+            "side": "top",
+            "source": "extruded",
+            "designator": "U1",
+            "model_name": ""
+          },
+          {
+            "node_name": "ExtrudedInst_U2_0017",
+            "association": "component",
+            "side": "top",
+            "source": "extruded",
+            "designator": "U2",
+            "model_name": ""
+          },
+          {
+            "node_name": "ExtrudedInst_U5_0014",
+            "association": "component",
+            "side": "top",
+            "source": "extruded",
+            "designator": "U5",
+            "model_name": ""
+          },
+          {
+            "node_name": "ExtrudedInst_U5_0015",
+            "association": "component",
+            "side": "top",
+            "source": "extruded",
+            "designator": "U5",
+            "model_name": ""
+          },
+          {
+            "node_name": "ExtrudedInst_U7_0025",
+            "association": "component",
+            "side": "bottom",
+            "source": "extruded",
+            "designator": "U7",
+            "model_name": ""
+          },
+          {
+            "node_name": "Step_BTN1_0000",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "BTN1",
+            "model_name": "B3U_1100P.step"
+          },
+          {
+            "node_name": "Step_C10_0020",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C10",
+            "model_name": "0402_0.55mm.STEP"
+          },
+          {
+            "node_name": "Step_C11_0027",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C11",
+            "model_name": "0402_0.55mm.STEP"
+          },
+          {
+            "node_name": "Step_C12_0058",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C12",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C13_0059",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C13",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C14_0065",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C14",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C15_0068",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C15",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C16_0042",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C16",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C17_0040",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C17",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C18_0021",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C18",
+            "model_name": "0603_0.90mm.STEP"
+          },
+          {
+            "node_name": "Step_C19_0013",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C19",
+            "model_name": "0402_0.55mm.STEP"
+          },
+          {
+            "node_name": "Step_C1_0028",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C1",
+            "model_name": "0603_0.90mm.STEP"
+          },
+          {
+            "node_name": "Step_C20_0060",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C20",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C21_0061",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C21",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C22_0063",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C22",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C23_0064",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C23",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C24_0057",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C24",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C25_0067",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C25",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C26_0049",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C26",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C27_0050",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C27",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C28_0051",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C28",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C29_0052",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C29",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C2_0018",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C2",
+            "model_name": "0603_0.90mm.STEP"
+          },
+          {
+            "node_name": "Step_C30_0069",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C30",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C31_0053",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C31",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C32_0054",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C32",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C33_0055",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C33",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C34_0056",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C34",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C35_0047",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C35",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C36_0062",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C36",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C37_0038",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C37",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C38_0045",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C38",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C39_0041",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C39",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C3_0029",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C3",
+            "model_name": "0402_0.55mm.STEP"
+          },
+          {
+            "node_name": "Step_C40_0043",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C40",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C41_0039",
+            "association": "component",
+            "side": "bottom",
+            "source": "step",
+            "designator": "C41",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C42_0016",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C42",
+            "model_name": "0805_1.45mm.STEP"
+          },
+          {
+            "node_name": "Step_C43_0006",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C43",
+            "model_name": "0402_0.55mm.STEP"
+          },
+          {
+            "node_name": "Step_C4_0030",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C4",
+            "model_name": "0402_0.55mm.STEP"
+          },
+          {
+            "node_name": "Step_C5_0031",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C5",
+            "model_name": "0603_0.90mm.STEP"
+          },
+          {
+            "node_name": "Step_C6_0066",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C6",
+            "model_name": "CAPC0604X03L.step"
+          },
+          {
+            "node_name": "Step_C7_0033",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C7",
+            "model_name": "0603_0.90mm.STEP"
+          },
+          {
+            "node_name": "Step_C8_0032",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C8",
+            "model_name": "0402_0.55mm.STEP"
+          },
+          {
+            "node_name": "Step_C9_0034",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "C9",
+            "model_name": "0603_0.90mm.STEP"
+          },
+          {
+            "node_name": "Step_D1_0022",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "D1",
+            "model_name": "SOD-323.step"
+          },
+          {
+            "node_name": "Step_D2_0009",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "D2",
+            "model_name": "SOD-323.step"
+          },
+          {
+            "node_name": "Step_J1_0024",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "J1",
+            "model_name": "S2B-PH-SM4-TB.stp"
+          },
+          {
+            "node_name": "Step_J2_0007",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "J2",
+            "model_name": "10103594.stp"
+          },
+          {
+            "node_name": "Step_J3_0008",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "J3",
+            "model_name": "FTSH-105-01-X-DV-K-A.step"
+          },
+          {
+            "node_name": "Step_L1_0010",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "L1",
+            "model_name": "0805_1.45mm.STEP"
+          },
+          {
+            "node_name": "Step_Q1_0026",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "Q1",
+            "model_name": "SW3DPS-SOT-23-DEFAULT.STEP"
+          },
+          {
+            "node_name": "Step_R10_0072",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R10",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R11_0036",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R11",
+            "model_name": "RESC1005X04N.step"
+          },
+          {
+            "node_name": "Step_R12_0075",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R12",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R14_0079",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R14",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R15_0048",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R15",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R16_0076",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R16",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R1_0077",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R1",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R2_0073",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R2",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R3_0074",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R3",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R4_0078",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R4",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R5_0046",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R5",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R6_0070",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R6",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R7_0071",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R7",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R8_0080",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R8",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R9_0037",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R9",
+            "model_name": "RESC1005X04N.step"
+          },
+          {
+            "node_name": "Step_RESET1_0001",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "RESET1",
+            "model_name": "B3U_1100P.step"
+          },
+          {
+            "node_name": "Step_SW1_0002",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "SW1",
+            "model_name": "CHS-01TA.stp"
+          },
+          {
+            "node_name": "Step_SW2_0003",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "SW2",
+            "model_name": "CHS-01TA.stp"
+          },
+          {
+            "node_name": "Step_SW3_0004",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "SW3",
+            "model_name": "CHS-01TA.stp"
+          },
+          {
+            "node_name": "Step_U3_0023",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "U3",
+            "model_name": "ct-sot-23-5.stp"
+          },
+          {
+            "node_name": "Step_U4_0011",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "U4",
+            "model_name": "User Library-sot143.step"
+          },
+          {
+            "node_name": "Step_U6_0005",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "U6",
+            "model_name": "User Library-SOIC8_(ATTINY12).step"
+          }
+        ]
+      },
+      "free": {
+        "label": "Free Models",
+        "node_name": "PCB_Models_Free",
+        "default_visible": true,
+        "default_opacity": 1.0,
+        "instance_count": 1,
+        "instances": [
+          {
+            "node_name": "FreeModelStep_0044_RESC1005X04L_step",
+            "association": "free",
+            "side": "top",
+            "source": "step",
+            "designator": "",
+            "model_name": "RESC1005X04L.step"
+          }
+        ]
+      }
+    }
+  }
+}

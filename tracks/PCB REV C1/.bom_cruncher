@@ -1,0 +1,24 @@
+{
+  "input_folder": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1",
+  "project_file": null,
+  "project_mode": null,
+  "output_folder": "../../mixdowns",
+  "output_subfolder_name": "CCA",
+  "subfolder_before_mixdown": false,
+  "prepend_basename_to_mixdown": false,
+  "mixdown_name_override": null,
+  "export_assy_bom": true,
+  "export_jlc_bom": true,
+  "export_jlc_cpl": true,
+  "export_pick_place": true,
+  "export_json_bom": true,
+  "export_lib_exceptions": true,
+  "overlay_cached_params": true,
+  "overlay_param_fields": [
+    "JLCPCB Part #",
+    "Description"
+  ],
+  "create_orphaned_parts": true,
+  "primary_key": "mpn",
+  "open_output_folder": true
+}

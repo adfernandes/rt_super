@@ -1,0 +1,99 @@
+{
+  "schema": "wn.altium.clean.config.v1",
+  "normalize_pin_fonts": {
+    "enabled": true,
+    "name_font": {
+      "font_name": "Arial",
+      "size_pt": 10,
+      "bold": false,
+      "italic": false,
+      "color_win32": 0
+    },
+    "designator_font": {
+      "font_name": "Arial",
+      "size_pt": 10,
+      "bold": false,
+      "italic": false,
+      "color_win32": 0
+    }
+  },
+  "normalize_symbol_body_rectangles": {
+    "enabled": true,
+    "min_width_mils": 40.0,
+    "min_height_mils": 40.0,
+    "outline_color_win32": 0,
+    "line_width": "small",
+    "fill_color_win32": 16777215,
+    "is_solid": true,
+    "transparent": false
+  },
+  "normalize_power_symbols": {
+    "enabled": true,
+    "color_win32": 0,
+    "font": {
+      "font_name": "Arial",
+      "size_pt": 10,
+      "bold": true,
+      "italic": false
+    }
+  },
+  "normalize_net_labels": {
+    "enabled": true,
+    "color_win32": 0,
+    "font": {
+      "font_name": "Arial",
+      "size_pt": 8,
+      "bold": true,
+      "italic": false
+    }
+  },
+  "normalize_component_designators": {
+    "enabled": true,
+    "font": {
+      "font_name": "Arial",
+      "size_pt": 12,
+      "bold": true,
+      "italic": false,
+      "color_win32": 0
+    }
+  },
+  "normalize_component_parameters": {
+    "enabled": true,
+    "font": {
+      "font_name": "Arial",
+      "size_pt": 10,
+      "bold": false,
+      "italic": false,
+      "color_win32": 0
+    }
+  },
+  "normalize_component_free_text": {
+    "enabled": true,
+    "font_name": "Arial",
+    "color_win32": 0
+  },
+  "normalize_wires": {
+    "enabled": true,
+    "color_win32": 4408131
+  },
+  "normalize_no_erc": {
+    "enabled": true,
+    "color_win32": 0,
+    "symbol": "cross_small"
+  },
+  "normalize_sheet_style": {
+    "enabled": true,
+    "line_color_win32": 0,
+    "area_color_win32": 16777215,
+    "document_font": {
+      "font_name": "Times New Roman",
+      "size_pt": 10,
+      "bold": false,
+      "italic": false
+    }
+  },
+  "normalize_symbol_internal_graphics_monochrome": {
+    "enabled": true,
+    "saturation": 0.0
+  }
+}
