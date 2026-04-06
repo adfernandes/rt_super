@@ -176,12 +176,13 @@ UniqueId=1443ADA5-1BBF-4E88-B31C-93B750D06A4C
 Description=C1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=6
 Variation1=Designator=R15|UniqueId=\QTUCRUVF|Kind=1|AlternatePart=
 Variation2=Designator=R17|UniqueId=\ZCEKNHDI|Kind=1|AlternatePart=
 Variation3=Designator=R18|UniqueId=\WKOTYOQR|Kind=1|AlternatePart=
-Variation4=Designator=C42|UniqueId=\IGJEMKYJ|Kind=1|AlternatePart=
-Variation5=Designator=U5|UniqueId=\NTNJLAMS|Kind=1|AlternatePart=
+Variation4=Designator=U5|UniqueId=\NTNJLAMS|Kind=1|AlternatePart=
+Variation5=Designator=C43|UniqueId=\YJZGGYRW|Kind=1|AlternatePart=
+Variation6=Designator=R22|UniqueId=\OLLQZKSP|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
@@ -193,11 +194,11 @@ Name=PROJECT_TITLE_LINE_1
 Value=RT_SUPER
 
 [Parameter3]
-Name=PROJECT_STATUS
+Name=STATUS
 Value=PROTOTYPE
 
 [Parameter4]
-Name=PROJECT_ENGINEER
+Name=ENGINEER
 Value=E. Hughes
 
 [Parameter5]
@@ -1332,41 +1333,6 @@ ComponentDesignItemID7=ERJ-3GEY0R00V
 ComponentSymbolReference7=R_2P
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
-
-[NetInfos]
-Net1=NetName=ADC0_8|NetColor=$001D7638
-Net2=NetName=FC0_CLK|NetColor=$001D7638
-Net3=NetName=FC0_RXD|NetColor=$001D7638
-Net4=NetName=FC0_SSEL1|NetColor=$001D7638
-Net5=NetName=FC0_TXD|NetColor=$001D7638
-Net6=NetName=FC1_CLK|NetColor=$001D7638
-Net7=NetName=FC1_RXD|NetColor=$001D7638
-Net8=NetName=FC1_TXD|NetColor=$001D7638
-Net9=NetName=FC2_CLK|NetColor=$001D7638
-Net10=NetName=FC2_SDA|NetColor=$001D7638
-Net11=NetName=FC2_WS|NetColor=$001D7638
-Net12=NetName=FC3_CLK|NetColor=$001D7638
-Net13=NetName=FC3_SDA|NetColor=$001D7638
-Net14=NetName=FC3_SSEL0|NetColor=$001D7638
-Net15=NetName=FC3_SSEL1|NetColor=$001D7638
-Net16=NetName=FC3_WS|NetColor=$001D7638
-Net17=NetName=FC4_SDA|NetColor=$001D7638
-Net18=NetName=FC4_SSEL0|NetColor=$001D7638
-Net19=NetName=FC5_RXD|NetColor=$001D7638
-Net20=NetName=FC5_SCK|NetColor=$001D7638
-Net21=NetName=FC5_TXD|NetColor=$001D7638
-Net22=NetName=FLEXSPI0A_D0|NetColor=$001D7638
-Net23=NetName=FLEXSPI0A_D1|NetColor=$001D7638
-Net24=NetName=FLEXSPI0A_D2|NetColor=$001D7638
-Net25=NetName=FLEXSPI0A_D3|NetColor=$001D7638
-Net26=NetName=FLEXSPI0A_SCK|NetColor=$001D7638
-Net27=NetName=FLEXSPI0A_SS0_N|NetColor=$001D7638
-Net28=NetName=HS_SPI_MISO|NetColor=$001D7638
-Net29=NetName=HS_SPI_MOSI|NetColor=$001D7638
-Net30=NetName=HS_SPI_SCK|NetColor=$001D7638
-Net31=NetName=HS_SPI_SSEL0|NetColor=$001D7638
-Net32=NetName=I3C0_SCL|NetColor=$001D7638
-Net33=NetName=MCLK|NetColor=$001D7638
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0

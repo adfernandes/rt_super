@@ -1,0 +1,249 @@
+{
+  "kind": "megamaid",
+  "input_project": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PrjPcb",
+  "output_root": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\output\\megamaid",
+  "variants": [
+    "C1"
+  ],
+  "schdoc_count": 1,
+  "pcbdoc_count": 1,
+  "bom": {
+    "base_csv": "bom\\RT_SUPER_C1_bom.csv",
+    "component_count": 81
+  },
+  "netlist": {
+    "design_json": "netlist\\RT_SUPER_C1_netlist.json",
+    "component_count": 158,
+    "net_count": 116
+  },
+  "schlib": [
+    {
+      "source_schdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.SchDoc",
+      "combined_schlib": "schlib\\combined\\RT_SUPER_C1.SchLib",
+      "split_dir": "schlib\\split",
+      "split_symbol_count": 29,
+      "split_results": {
+        "APT1608CGCK": true,
+        "APT1608SURCK": true,
+        "BAT760-7": true,
+        "CC0201KRX5R5BB104": true,
+        "CGA2B1X7R1C104K050BC": true,
+        "ECS-240-8-36CKM-TR": true,
+        "ERJ-2GE0R00X": true,
+        "ERJ-2RKF1001X": true,
+        "ERJ-2RKF1002X": true,
+        "ERJ-2RKF1003X": true,
+        "ERJ-2RKF2002X": true,
+        "ERJ-2RKF2201X": true,
+        "FTSH-105-01-L-DV-K-TR": true,
+        "GCJ188C70J475KE02D": true,
+        "GCM1555C1H8R0DA16D": true,
+        "GCM155C71A105KE38D": true,
+        "GCM188R70J225KE22D": true,
+        "GRT155R61E474KE01D": true,
+        "GRT188R61A106ME13D": true,
+        "MIMXRT685SFVKB": true,
+        "NRH3012T2R2MN": true,
+        "NX3215SA-32.768K-STD-MUA-9": true,
+        "PCA9420BSAZ": true,
+        "PRTR5V0U2X,215": true,
+        "SN74AUC1G07DBVR": true,
+        "SOLDER_HOLE": true,
+        "TC2030-CTL-NL": true,
+        "W25Q16JWXHIQ": true,
+        "W25Q64JWSSIQ": true
+      }
+    }
+  ],
+  "pcblib": [
+    {
+      "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+      "combined_pcblib": "pcblib\\combined\\RT_SUPER_C1.PcbLib",
+      "split_dir": "pcblib\\split",
+      "footprint_count": 27,
+      "split_file_count": 27
+    }
+  ],
+  "embedded_assets": {
+    "fonts": [
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "Arial.ttf",
+        "output_file": "embedded_fonts\\Arial.ttf",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "Arial Bold.ttf",
+        "output_file": "embedded_fonts\\Arial Bold.ttf",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "Monkey.ttf",
+        "output_file": "embedded_fonts\\Monkey.ttf",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "SNES Italic.ttf",
+        "output_file": "embedded_fonts\\SNES Italic.ttf",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "Wavenumber.ttf",
+        "output_file": "embedded_fonts\\Wavenumber.ttf",
+        "deduplicated": false
+      }
+    ],
+    "models": [
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "0402_0.55mm.STEP",
+        "output_file": "embedded_models\\0402_0.55mm.STEP",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "0402_0.55mm.STEP",
+        "output_file": "embedded_models\\0402_0.55mm.STEP",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "FTSH-105-01-L-DV-K-TR.stp",
+        "output_file": "embedded_models\\FTSH-105-01-L-DV-K-TR.stp",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "User Library-SOIC8_(ATTINY12).step",
+        "output_file": "embedded_models\\User Library-SOIC8_(ATTINY12).step",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "SOD-323.step",
+        "output_file": "embedded_models\\SOD-323.step",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "User Library-sot143.step",
+        "output_file": "embedded_models\\User Library-sot143.step",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "0402_0.55mm.STEP",
+        "output_file": "embedded_models\\0402_0.55mm.STEP",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "0603_0.90mm.STEP",
+        "output_file": "embedded_models\\0603_0.90mm.STEP",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "0603_0.90mm.STEP",
+        "output_file": "embedded_models\\0603_0.90mm.STEP",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "ct-sot-23-5.stp",
+        "output_file": "embedded_models\\ct-sot-23-5.stp",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "0603_0.90mm.STEP",
+        "output_file": "embedded_models\\0603_0.90mm.STEP",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "0603_0.90mm.STEP",
+        "output_file": "embedded_models\\0603_0.90mm.STEP",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "RESC1005X04L.step",
+        "output_file": "embedded_models\\RESC1005X04L.step",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "RESC1005X04L.step",
+        "output_file": "embedded_models\\RESC1005X04L.step",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "CAPC0604X03L.step",
+        "output_file": "embedded_models\\CAPC0604X03L.step",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "step_temp.STEP",
+        "output_file": "embedded_models\\step_temp.STEP",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "RESC1005X04L.step",
+        "output_file": "embedded_models\\RESC1005X04L.step",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "CAPC0604X03L.step",
+        "output_file": "embedded_models\\CAPC0604X03L.step",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "User Library-Siward_SX3215.step",
+        "output_file": "embedded_models\\User Library-Siward_SX3215.step",
+        "deduplicated": false
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "RESC1005X04L.step",
+        "output_file": "embedded_models\\RESC1005X04L.step",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "RESC1005X04L.step",
+        "output_file": "embedded_models\\RESC1005X04L.step",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "CAPC0604X03L.step",
+        "output_file": "embedded_models\\CAPC0604X03L.step",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "CAPC0604X03L.step",
+        "output_file": "embedded_models\\CAPC0604X03L.step",
+        "deduplicated": true
+      },
+      {
+        "source_pcbdoc": "C:\\ELI\\prj\\wavenumber\\kung-fu\\rt_super\\tracks\\PCB REV C1\\RT_SUPER_C1.PCBdoc",
+        "source_name": "mill-max-5421-0-00-15-00-00-03-0.step",
+        "output_file": "embedded_models\\mill-max-5421-0-00-15-00-00-03-0.step",
+        "deduplicated": false
+      }
+    ],
+    "font_file_count": 5,
+    "model_file_count": 12
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "wn.pcb.svg.eg06.view_manifest.v1",
+  "board": "RT_SUPER_C1",
+  "source_input": "RT_SUPER_C1.PrjPcb",
+  "views": {
+    "bottom_view": {
+      "folder": "bottom_view",
+      "file": "RT_SUPER_C1__bottom_view.svg",
+      "mirrored": true,
+      "name": "bottom_view",
+      "description": "Bottom View"
+    },
+    "top_view": {
+      "folder": "top_view",
+      "file": "RT_SUPER_C1__top_view.svg",
+      "name": "top_view",
+      "description": "Top View"
+    },
+    "layers": {
+      "folder": "layers",
+      "files": [
+        "RT_SUPER_C1__BOTTOM.svg",
+        "RT_SUPER_C1__BOTTOMOVERLAY.svg",
+        "RT_SUPER_C1__DRILLS.svg",
+        "RT_SUPER_C1__MID1.svg",
+        "RT_SUPER_C1__MID2.svg",
+        "RT_SUPER_C1__MID3.svg",
+        "RT_SUPER_C1__MID4.svg",
+        "RT_SUPER_C1__TOP.svg",
+        "RT_SUPER_C1__TOPOVERLAY.svg"
+      ],
+      "layer_filter": "auto:copper+silkscreen",
+      "name": "layers"
+    }
+  }
+}

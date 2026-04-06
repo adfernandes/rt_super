@@ -1,0 +1,16 @@
+{
+  "folder": "layers",
+  "files": [
+    "RT_SUPER_C1__BOTTOM.svg",
+    "RT_SUPER_C1__BOTTOMOVERLAY.svg",
+    "RT_SUPER_C1__DRILLS.svg",
+    "RT_SUPER_C1__MID1.svg",
+    "RT_SUPER_C1__MID2.svg",
+    "RT_SUPER_C1__MID3.svg",
+    "RT_SUPER_C1__MID4.svg",
+    "RT_SUPER_C1__TOP.svg",
+    "RT_SUPER_C1__TOPOVERLAY.svg"
+  ],
+  "layer_filter": "auto:copper+silkscreen",
+  "name": "layers"
+}

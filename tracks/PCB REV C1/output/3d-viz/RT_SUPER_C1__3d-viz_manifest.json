@@ -27,7 +27,7 @@
     "schema": "wn.pcb.gltf.render_metadata.v1",
     "units": "mm",
     "z_origin": "stack_midpoint",
-    "board_thickness_mm": 0.8636,
+    "board_thickness_mm": 0.79248,
     "board_center_mils": [
       31636.5591,
       19703.0387
@@ -36,57 +36,73 @@
       803.568601,
       500.457183
     ],
-    "board_area_before_drills_mm2": 1208.95833,
-    "board_area_after_drills_mm2": 1165.476016,
-    "body_count": 1338,
-    "dielectric_body_count": 3,
+    "board_area_before_drills_mm2": 1259.855545,
+    "board_area_after_drills_mm2": 1217.990068,
+    "body_count": 1699,
+    "dielectric_body_count": 5,
     "dielectric_surface_backend_requested": "occt",
     "dielectric_surface_backend": "occt",
-    "copper_body_count": 296,
-    "component_pad_body_count": 687,
+    "copper_body_count": 423,
+    "component_pad_body_count": 843,
     "solder_mask_body_count": 2,
-    "silkscreen_body_count": 318,
-    "extruded_component_body_count": 19,
-    "step_component_body_count": 13,
+    "silkscreen_body_count": 396,
+    "extruded_component_body_count": 18,
+    "step_component_body_count": 12,
     "dielectric_slices": [
+      {
+        "display_name": "Dielectric 3",
+        "layer_key": "V7_17039364",
+        "stack_index": 4,
+        "thickness_mm": 0.07112,
+        "z_top_mm": 0.39624,
+        "z_bottom_mm": 0.32512
+      },
       {
         "display_name": "Dielectric 1",
         "layer_key": "V7_17039362",
-        "stack_index": 4,
+        "stack_index": 6,
         "thickness_mm": 0.07112,
-        "z_top_mm": 0.4318,
-        "z_bottom_mm": 0.36068
+        "z_top_mm": 0.32512,
+        "z_bottom_mm": 0.254
       },
       {
         "display_name": "Dielectric1",
         "layer_key": "V7_17039361",
-        "stack_index": 6,
-        "thickness_mm": 0.72136,
-        "z_top_mm": 0.36068,
-        "z_bottom_mm": -0.36068
+        "stack_index": 8,
+        "thickness_mm": 0.508,
+        "z_top_mm": 0.254,
+        "z_bottom_mm": -0.254
       },
       {
         "display_name": "Dielectric 2",
         "layer_key": "V7_17039363",
-        "stack_index": 8,
+        "stack_index": 10,
         "thickness_mm": 0.07112,
-        "z_top_mm": -0.36068,
-        "z_bottom_mm": -0.4318
+        "z_top_mm": -0.254,
+        "z_bottom_mm": -0.32512
+      },
+      {
+        "display_name": "Dielectric 4",
+        "layer_key": "V7_17039365",
+        "stack_index": 12,
+        "thickness_mm": 0.07112,
+        "z_top_mm": -0.32512,
+        "z_bottom_mm": -0.39624
       }
     ],
     "drill_cutters": {
-      "total": 85,
-      "pad_round": 85,
+      "total": 83,
+      "pad_round": 83,
       "pad_slot": 0,
       "via_round": 0,
       "plated": 80,
-      "non_plated": 5
+      "non_plated": 3
     },
     "drill_subtraction": {
       "include_drills": true,
       "subtract_pad_holes_from_board": true,
       "subtract_via_holes_from_board": false,
-      "cutter_count": 85
+      "cutter_count": 83
     },
     "copper_nets": {
       "enabled": true,
@@ -97,32 +113,32 @@
           "stack_index": 3,
           "layer_id": 1,
           "thickness_mm": 0.03556,
-          "z_surface_mm": 0.4318,
-          "net_count": 116,
-          "mesh_count": 116,
-          "area_mm2": 201.830588,
+          "z_surface_mm": 0.39624,
+          "net_count": 113,
+          "mesh_count": 113,
+          "area_mm2": 224.180295,
           "primitive_inputs": {
-            "tracks": 902,
-            "arcs": 0,
+            "tracks": 960,
+            "arcs": 11,
             "fills": 0,
             "regions": 0,
             "shapebased_regions": 0,
             "texts": 0,
             "pads": 4,
-            "vias": 197
+            "vias": 207
           },
-          "hole_cutter_count": 85
+          "hole_cutter_count": 83
         },
-        "mid2": {
-          "display_name": "GND",
+        "mid3": {
+          "display_name": "GND2",
           "side": "inner",
           "stack_index": 5,
-          "layer_id": 3,
+          "layer_id": 4,
           "thickness_mm": 0.035001,
-          "z_surface_mm": 0.36068,
-          "net_count": 60,
-          "mesh_count": 60,
-          "area_mm2": 893.054673,
+          "z_surface_mm": 0.32512,
+          "net_count": 62,
+          "mesh_count": 62,
+          "area_mm2": 864.212537,
           "primitive_inputs": {
             "tracks": 0,
             "arcs": 0,
@@ -131,59 +147,105 @@
             "shapebased_regions": 1,
             "texts": 0,
             "pads": 4,
-            "vias": 197
+            "vias": 207
           },
-          "hole_cutter_count": 85
+          "hole_cutter_count": 83
         },
-        "mid1": {
-          "display_name": "PWR",
+        "mid2": {
+          "display_name": "PWR3",
           "side": "inner",
           "stack_index": 7,
+          "layer_id": 3,
+          "thickness_mm": 0.035001,
+          "z_surface_mm": 0.254,
+          "net_count": 62,
+          "mesh_count": 62,
+          "area_mm2": 834.355179,
+          "primitive_inputs": {
+            "tracks": 0,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 1,
+            "shapebased_regions": 1,
+            "texts": 0,
+            "pads": 4,
+            "vias": 207
+          },
+          "hole_cutter_count": 83
+        },
+        "mid1": {
+          "display_name": "PWR4",
+          "side": "inner",
+          "stack_index": 9,
           "layer_id": 2,
           "thickness_mm": 0.035001,
-          "z_surface_mm": -0.36068,
-          "net_count": 60,
-          "mesh_count": 60,
-          "area_mm2": 823.635995,
+          "z_surface_mm": -0.254,
+          "net_count": 62,
+          "mesh_count": 62,
+          "area_mm2": 799.951474,
           "primitive_inputs": {
-            "tracks": 104,
+            "tracks": 84,
             "arcs": 0,
             "fills": 0,
             "regions": 2,
             "shapebased_regions": 2,
             "texts": 0,
             "pads": 4,
-            "vias": 197
+            "vias": 207
           },
-          "hole_cutter_count": 85
+          "hole_cutter_count": 83
+        },
+        "mid4": {
+          "display_name": "GND5",
+          "side": "inner",
+          "stack_index": 11,
+          "layer_id": 5,
+          "thickness_mm": 0.035001,
+          "z_surface_mm": -0.32512,
+          "net_count": 62,
+          "mesh_count": 62,
+          "area_mm2": 864.212537,
+          "primitive_inputs": {
+            "tracks": 0,
+            "arcs": 0,
+            "fills": 0,
+            "regions": 1,
+            "shapebased_regions": 1,
+            "texts": 0,
+            "pads": 4,
+            "vias": 207
+          },
+          "hole_cutter_count": 83
         },
         "bottom": {
           "display_name": "Bottom Layer",
           "side": "bottom",
-          "stack_index": 9,
+          "stack_index": 13,
           "layer_id": 32,
           "thickness_mm": 0.03556,
-          "z_surface_mm": -0.4318,
-          "net_count": 60,
-          "mesh_count": 60,
-          "area_mm2": 494.056937,
+          "z_surface_mm": -0.39624,
+          "net_count": 62,
+          "mesh_count": 62,
+          "area_mm2": 197.707227,
           "primitive_inputs": {
-            "tracks": 588,
-            "arcs": 0,
+            "tracks": 597,
+            "arcs": 6,
             "fills": 0,
-            "regions": 19,
-            "shapebased_regions": 19,
+            "regions": 0,
+            "shapebased_regions": 0,
             "texts": 0,
             "pads": 4,
-            "vias": 197
+            "vias": 207
           },
-          "hole_cutter_count": 85
+          "hole_cutter_count": 83
         }
       },
       "layer_order": [
         "top",
+        "mid3",
         "mid2",
         "mid1",
+        "mid4",
         "bottom"
       ]
     },
@@ -201,9 +263,9 @@
           "layer_id": 37,
           "enabled": true,
           "mesh_count": 1,
-          "area_mm2": 850.61214,
+          "area_mm2": 782.898529,
           "thickness_mm": 0.02,
-          "opening_area_mm2": 371.222861,
+          "opening_area_mm2": 476.920237,
           "primitive_inputs": {
             "tracks": 0,
             "arcs": 0,
@@ -211,7 +273,7 @@
             "regions": 23,
             "shapebased_regions": 23,
             "texts": 0,
-            "pads": 420,
+            "pads": 414,
             "vias": 0
           }
         },
@@ -219,9 +281,9 @@
           "layer_id": 38,
           "enabled": true,
           "mesh_count": 1,
-          "area_mm2": 987.851489,
+          "area_mm2": 927.475038,
           "thickness_mm": 0.02,
-          "opening_area_mm2": 221.074632,
+          "opening_area_mm2": 332.343729,
           "primitive_inputs": {
             "tracks": 0,
             "arcs": 0,
@@ -229,7 +291,7 @@
             "regions": 0,
             "shapebased_regions": 0,
             "texts": 0,
-            "pads": 147,
+            "pads": 145,
             "vias": 0
           }
         }
@@ -241,32 +303,32 @@
       "layers": {
         "top": {
           "layer_id": 33,
-          "mesh_count": 187,
-          "area_mm2": 88.105668,
+          "mesh_count": 197,
+          "area_mm2": 122.755653,
           "thickness_mm": 0.012,
           "primitive_inputs": {
-            "tracks": 200,
-            "arcs": 132,
-            "fills": 0,
+            "tracks": 70,
+            "arcs": 8,
+            "fills": 1,
             "regions": 0,
             "shapebased_regions": 0,
-            "texts": 60,
+            "texts": 83,
             "pads": 0,
             "vias": 0
           }
         },
         "bottom": {
           "layer_id": 34,
-          "mesh_count": 131,
-          "area_mm2": 127.19721,
+          "mesh_count": 199,
+          "area_mm2": 176.873735,
           "thickness_mm": 0.012,
           "primitive_inputs": {
-            "tracks": 116,
-            "arcs": 124,
+            "tracks": 0,
+            "arcs": 0,
             "fills": 0,
             "regions": 0,
             "shapebased_regions": 0,
-            "texts": 35,
+            "texts": 82,
             "pads": 0,
             "vias": 0
           }
@@ -275,19 +337,19 @@
     },
     "extruded_components": {
       "enabled": true,
-      "instance_count": 19,
-      "geometry_count": 19,
+      "instance_count": 18,
+      "geometry_count": 18,
       "layers": {
-        "top": 19,
+        "top": 18,
         "bottom": 0
       },
       "association_counts": {
-        "component": 19,
+        "component": 18,
         "free": 0
       },
       "instances": [
         {
-          "node_name": "ExtrudedInst_U1_0003",
+          "node_name": "ExtrudedInst_U1_0007",
           "association": "component",
           "side": "top",
           "source": "extruded",
@@ -295,23 +357,7 @@
           "model_name": ""
         },
         {
-          "node_name": "ExtrudedInst_X2_0005",
-          "association": "component",
-          "side": "top",
-          "source": "extruded",
-          "designator": "X2",
-          "model_name": ""
-        },
-        {
-          "node_name": "ExtrudedInst_X2_0006",
-          "association": "component",
-          "side": "top",
-          "source": "extruded",
-          "designator": "X2",
-          "model_name": ""
-        },
-        {
-          "node_name": "ExtrudedInst_U2_0008",
+          "node_name": "ExtrudedInst_U2_0010",
           "association": "component",
           "side": "top",
           "source": "extruded",
@@ -319,19 +365,11 @@
           "model_name": ""
         },
         {
-          "node_name": "ExtrudedInst_L3_0010",
+          "node_name": "ExtrudedInst_L3_0012",
           "association": "component",
           "side": "top",
           "source": "extruded",
           "designator": "L3",
-          "model_name": ""
-        },
-        {
-          "node_name": "ExtrudedInst_D3_0015",
-          "association": "component",
-          "side": "top",
-          "source": "extruded",
-          "designator": "D3",
           "model_name": ""
         },
         {
@@ -375,11 +413,11 @@
           "model_name": ""
         },
         {
-          "node_name": "ExtrudedInst_D4_0021",
+          "node_name": "ExtrudedInst_D3_0021",
           "association": "component",
           "side": "top",
           "source": "extruded",
-          "designator": "D4",
+          "designator": "D3",
           "model_name": ""
         },
         {
@@ -423,7 +461,15 @@
           "model_name": ""
         },
         {
-          "node_name": "ExtrudedInst_L2_0039",
+          "node_name": "ExtrudedInst_D4_0027",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "D4",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_L2_0037",
           "association": "component",
           "side": "top",
           "source": "extruded",
@@ -431,7 +477,15 @@
           "model_name": ""
         },
         {
-          "node_name": "ExtrudedInst_X1_0045",
+          "node_name": "ExtrudedInst_X2_0039",
+          "association": "component",
+          "side": "top",
+          "source": "extruded",
+          "designator": "X2",
+          "model_name": ""
+        },
+        {
+          "node_name": "ExtrudedInst_X1_0047",
           "association": "component",
           "side": "top",
           "source": "extruded",
@@ -439,7 +493,7 @@
           "model_name": ""
         }
       ],
-      "skipped_invalid_modeltype": 149,
+      "skipped_invalid_modeltype": 150,
       "skipped_missing_outline": 0,
       "skipped_invalid_height": 0,
       "texture_reference_count": 0,
@@ -452,24 +506,56 @@
       "enabled": true,
       "available": true,
       "source_to_scene_scale": 1000.0,
-      "instance_count": 149,
-      "geometry_count": 13,
-      "unique_model_count": 13,
-      "converted_model_count": 13,
+      "instance_count": 150,
+      "geometry_count": 12,
+      "unique_model_count": 12,
+      "converted_model_count": 12,
       "conversion_failures": 0,
       "skipped_missing_model_ref": 0,
-      "skipped_unresolved_model_ref": 19,
+      "skipped_unresolved_model_ref": 18,
       "layers": {
-        "top": 44,
-        "bottom": 105
+        "top": 43,
+        "bottom": 107
       },
       "association_counts": {
-        "component": 149,
+        "component": 150,
         "free": 0
       },
       "instances": [
         {
-          "node_name": "Step_U6_0000",
+          "node_name": "Step_C42_0000",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C42",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C45_0001",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C45",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_C44_0002",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "C44",
+          "model_name": "0402_0.55mm.STEP"
+        },
+        {
+          "node_name": "Step_J2_0003",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "J2",
+          "model_name": "FTSH-105-01-L-DV-K-TR.stp"
+        },
+        {
+          "node_name": "Step_U6_0004",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -477,7 +563,7 @@
           "model_name": "User Library-SOIC8_(ATTINY12).step"
         },
         {
-          "node_name": "Step_D2_0001",
+          "node_name": "Step_D2_0005",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -485,7 +571,7 @@
           "model_name": "SOD-323.step"
         },
         {
-          "node_name": "Step_U4_0002",
+          "node_name": "Step_U4_0006",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -493,7 +579,7 @@
           "model_name": "User Library-sot143.step"
         },
         {
-          "node_name": "Step_C19_0004",
+          "node_name": "Step_C19_0008",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -501,7 +587,7 @@
           "model_name": "0402_0.55mm.STEP"
         },
         {
-          "node_name": "Step_C43_0007",
+          "node_name": "Step_C43_0009",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -509,7 +595,7 @@
           "model_name": "0402_0.55mm.STEP"
         },
         {
-          "node_name": "Step_C2_0009",
+          "node_name": "Step_C2_0011",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -517,7 +603,7 @@
           "model_name": "0603_0.90mm.STEP"
         },
         {
-          "node_name": "Step_C10_0011",
+          "node_name": "Step_C10_0013",
           "association": "component",
           "side": "bottom",
           "source": "step",
@@ -525,7 +611,7 @@
           "model_name": "0402_0.55mm.STEP"
         },
         {
-          "node_name": "Step_C18_0012",
+          "node_name": "Step_C18_0014",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -533,28 +619,12 @@
           "model_name": "0603_0.90mm.STEP"
         },
         {
-          "node_name": "Step_D1_0013",
+          "node_name": "Step_D1_0015",
           "association": "component",
           "side": "top",
           "source": "step",
           "designator": "D1",
           "model_name": "SOD-323.step"
-        },
-        {
-          "node_name": "Step_J2_0014",
-          "association": "component",
-          "side": "top",
-          "source": "step",
-          "designator": "J2",
-          "model_name": "FTSH-105-01-X-DV-K-A.step"
-        },
-        {
-          "node_name": "Step_C45_0027",
-          "association": "component",
-          "side": "top",
-          "source": "step",
-          "designator": "C45",
-          "model_name": "User Library-cap_0402.step"
         },
         {
           "node_name": "Step_U3_0028",
@@ -565,23 +635,7 @@
           "model_name": "ct-sot-23-5.stp"
         },
         {
-          "node_name": "Step_C44_0029",
-          "association": "component",
-          "side": "top",
-          "source": "step",
-          "designator": "C44",
-          "model_name": "User Library-cap_0402.step"
-        },
-        {
-          "node_name": "Step_C42_0030",
-          "association": "component",
-          "side": "top",
-          "source": "step",
-          "designator": "C42",
-          "model_name": "0603_0.90mm.STEP"
-        },
-        {
-          "node_name": "Step_C11_0031",
+          "node_name": "Step_C11_0029",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -589,7 +643,7 @@
           "model_name": "0402_0.55mm.STEP"
         },
         {
-          "node_name": "Step_C1_0032",
+          "node_name": "Step_C1_0030",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -597,7 +651,7 @@
           "model_name": "0603_0.90mm.STEP"
         },
         {
-          "node_name": "Step_C3_0033",
+          "node_name": "Step_C3_0031",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -605,7 +659,7 @@
           "model_name": "0402_0.55mm.STEP"
         },
         {
-          "node_name": "Step_C4_0034",
+          "node_name": "Step_C4_0032",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -613,7 +667,7 @@
           "model_name": "0402_0.55mm.STEP"
         },
         {
-          "node_name": "Step_C5_0035",
+          "node_name": "Step_C5_0033",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -621,7 +675,7 @@
           "model_name": "0603_0.90mm.STEP"
         },
         {
-          "node_name": "Step_C8_0036",
+          "node_name": "Step_C8_0034",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -629,7 +683,7 @@
           "model_name": "0402_0.55mm.STEP"
         },
         {
-          "node_name": "Step_C7_0037",
+          "node_name": "Step_C7_0035",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -637,7 +691,7 @@
           "model_name": "0603_0.90mm.STEP"
         },
         {
-          "node_name": "Step_C9_0038",
+          "node_name": "Step_C9_0036",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -645,7 +699,31 @@
           "model_name": "0603_0.90mm.STEP"
         },
         {
-          "node_name": "Step_U5_0040",
+          "node_name": "Step_R23_0038",
+          "association": "component",
+          "side": "top",
+          "source": "step",
+          "designator": "R23",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_R21_0040",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "R21",
+          "model_name": "RESC1005X04L.step"
+        },
+        {
+          "node_name": "Step_C6_0041",
+          "association": "component",
+          "side": "bottom",
+          "source": "step",
+          "designator": "C6",
+          "model_name": "CAPC0604X03L.step"
+        },
+        {
+          "node_name": "Step_U5_0042",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -653,7 +731,7 @@
           "model_name": "step_temp.STEP"
         },
         {
-          "node_name": "Step_R5_0041",
+          "node_name": "Step_R5_0043",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -661,7 +739,7 @@
           "model_name": "RESC1005X04L.step"
         },
         {
-          "node_name": "Step_C35_0042",
+          "node_name": "Step_C35_0044",
           "association": "component",
           "side": "bottom",
           "source": "step",
@@ -669,7 +747,7 @@
           "model_name": "CAPC0604X03L.step"
         },
         {
-          "node_name": "Step_C17_0043",
+          "node_name": "Step_C17_0045",
           "association": "component",
           "side": "bottom",
           "source": "step",
@@ -677,7 +755,7 @@
           "model_name": "CAPC0604X03L.step"
         },
         {
-          "node_name": "Step_X1_0044",
+          "node_name": "Step_X1_0046",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -685,7 +763,7 @@
           "model_name": "User Library-Siward_SX3215.step"
         },
         {
-          "node_name": "Step_R22_0046",
+          "node_name": "Step_R22_0048",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -693,7 +771,7 @@
           "model_name": "RESC1005X04L.step"
         },
         {
-          "node_name": "Step_R18_0047",
+          "node_name": "Step_R18_0049",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -701,7 +779,7 @@
           "model_name": "RESC1005X04L.step"
         },
         {
-          "node_name": "Step_R17_0048",
+          "node_name": "Step_R17_0050",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -709,7 +787,7 @@
           "model_name": "RESC1005X04L.step"
         },
         {
-          "node_name": "Step_R15_0049",
+          "node_name": "Step_R15_0051",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -717,15 +795,7 @@
           "model_name": "RESC1005X04L.step"
         },
         {
-          "node_name": "Step_R21_0050",
-          "association": "component",
-          "side": "top",
-          "source": "step",
-          "designator": "R21",
-          "model_name": "RESC1005X04L.step"
-        },
-        {
-          "node_name": "Step_R20_0051",
+          "node_name": "Step_R20_0052",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -733,7 +803,7 @@
           "model_name": "RESC1005X04L.step"
         },
         {
-          "node_name": "Step_R19_0052",
+          "node_name": "Step_R19_0053",
           "association": "component",
           "side": "top",
           "source": "step",
@@ -741,20 +811,12 @@
           "model_name": "RESC1005X04L.step"
         },
         {
-          "node_name": "Step_R8_0053",
+          "node_name": "Step_R8_0054",
           "association": "component",
           "side": "top",
           "source": "step",
           "designator": "R8",
           "model_name": "RESC1005X04L.step"
-        },
-        {
-          "node_name": "Step_C6_0054",
-          "association": "component",
-          "side": "top",
-          "source": "step",
-          "designator": "C6",
-          "model_name": "CAPC0604X03L.step"
         },
         {
           "node_name": "Step_C36_0055",
@@ -1662,78 +1724,78 @@
         }
       ],
       "z_offset_source_counts": {
-        "model.3d.dz": 149,
+        "model.3d.dz": 150,
         "standoffheight_fallback": 0,
         "default_zero": 0
       },
       "discovery": {
-        "model_record_count": 27,
-        "model_stream_count": 27,
-        "embedded_with_stream_count": 27,
-        "step_candidate_count": 27,
+        "model_record_count": 24,
+        "model_stream_count": 24,
+        "embedded_with_stream_count": 24,
+        "step_candidate_count": 24,
         "classifications": {
-          "step": 27
+          "step": 24
         },
         "models": [
           {
             "index": 0,
-            "name": "User Library-SOIC8_(ATTINY12).step",
+            "name": "0402_0.55mm.STEP",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 1,
-            "name": "SOD-323.step",
+            "name": "0402_0.55mm.STEP",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 2,
-            "name": "User Library-sot143.step",
+            "name": "FTSH-105-01-L-DV-K-TR.stp",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 3,
-            "name": "0402_0.55mm.STEP",
+            "name": "User Library-SOIC8_(ATTINY12).step",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 4,
-            "name": "0402_0.55mm.STEP",
+            "name": "SOD-323.step",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 5,
-            "name": "0603_0.90mm.STEP",
+            "name": "User Library-sot143.step",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 6,
-            "name": "0603_0.90mm.STEP",
+            "name": "0402_0.55mm.STEP",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 7,
-            "name": "FTSH-105-01-X-DV-K-A.step",
+            "name": "0603_0.90mm.STEP",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 8,
-            "name": "User Library-cap_0402.step",
+            "name": "0603_0.90mm.STEP",
             "format": "step",
             "embedded": true,
             "has_stream": true
@@ -1747,7 +1809,7 @@
           },
           {
             "index": 10,
-            "name": "User Library-cap_0402.step",
+            "name": "0603_0.90mm.STEP",
             "format": "step",
             "embedded": true,
             "has_stream": true
@@ -1761,21 +1823,21 @@
           },
           {
             "index": 12,
-            "name": "0402_0.55mm.STEP",
+            "name": "RESC1005X04L.step",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 13,
-            "name": "0603_0.90mm.STEP",
+            "name": "RESC1005X04L.step",
             "format": "step",
             "embedded": true,
             "has_stream": true
           },
           {
             "index": 14,
-            "name": "0603_0.90mm.STEP",
+            "name": "CAPC0604X03L.step",
             "format": "step",
             "embedded": true,
             "has_stream": true
@@ -1824,7 +1886,7 @@
           },
           {
             "index": 21,
-            "name": "RESC1005X04L.step",
+            "name": "CAPC0604X03L.step",
             "format": "step",
             "embedded": true,
             "has_stream": true
@@ -1838,27 +1900,6 @@
           },
           {
             "index": 23,
-            "name": "CAPC0604X03L.step",
-            "format": "step",
-            "embedded": true,
-            "has_stream": true
-          },
-          {
-            "index": 24,
-            "name": "CAPC0604X03L.step",
-            "format": "step",
-            "embedded": true,
-            "has_stream": true
-          },
-          {
-            "index": 25,
-            "name": "RESC1005X04L.step",
-            "format": "step",
-            "embedded": true,
-            "has_stream": true
-          },
-          {
-            "index": 26,
             "name": "mill-max-5421-0-00-15-00-00-03-0.step",
             "format": "step",
             "embedded": true,
@@ -1875,14 +1916,6 @@
         "default_opacity": 1.0,
         "instance_count": 168,
         "instances": [
-          {
-            "node_name": "ExtrudedInst_D3_0015",
-            "association": "component",
-            "side": "top",
-            "source": "extruded",
-            "designator": "D3",
-            "model_name": ""
-          },
           {
             "node_name": "ExtrudedInst_D3_0016",
             "association": "component",
@@ -1924,11 +1957,11 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_D4_0021",
+            "node_name": "ExtrudedInst_D3_0021",
             "association": "component",
             "side": "top",
             "source": "extruded",
-            "designator": "D4",
+            "designator": "D3",
             "model_name": ""
           },
           {
@@ -1972,7 +2005,15 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_L2_0039",
+            "node_name": "ExtrudedInst_D4_0027",
+            "association": "component",
+            "side": "top",
+            "source": "extruded",
+            "designator": "D4",
+            "model_name": ""
+          },
+          {
+            "node_name": "ExtrudedInst_L2_0037",
             "association": "component",
             "side": "top",
             "source": "extruded",
@@ -1980,7 +2021,7 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_L3_0010",
+            "node_name": "ExtrudedInst_L3_0012",
             "association": "component",
             "side": "top",
             "source": "extruded",
@@ -1988,7 +2029,7 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_U1_0003",
+            "node_name": "ExtrudedInst_U1_0007",
             "association": "component",
             "side": "top",
             "source": "extruded",
@@ -1996,7 +2037,7 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_U2_0008",
+            "node_name": "ExtrudedInst_U2_0010",
             "association": "component",
             "side": "top",
             "source": "extruded",
@@ -2004,7 +2045,7 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_X1_0045",
+            "node_name": "ExtrudedInst_X1_0047",
             "association": "component",
             "side": "top",
             "source": "extruded",
@@ -2012,7 +2053,7 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_X2_0005",
+            "node_name": "ExtrudedInst_X2_0039",
             "association": "component",
             "side": "top",
             "source": "extruded",
@@ -2020,15 +2061,7 @@
             "model_name": ""
           },
           {
-            "node_name": "ExtrudedInst_X2_0006",
-            "association": "component",
-            "side": "top",
-            "source": "extruded",
-            "designator": "X2",
-            "model_name": ""
-          },
-          {
-            "node_name": "Step_C10_0011",
+            "node_name": "Step_C10_0013",
             "association": "component",
             "side": "bottom",
             "source": "step",
@@ -2036,7 +2069,7 @@
             "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C11_0031",
+            "node_name": "Step_C11_0029",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2084,7 +2117,7 @@
             "model_name": "CAPC0604X03L.step"
           },
           {
-            "node_name": "Step_C17_0043",
+            "node_name": "Step_C17_0045",
             "association": "component",
             "side": "bottom",
             "source": "step",
@@ -2092,7 +2125,7 @@
             "model_name": "CAPC0604X03L.step"
           },
           {
-            "node_name": "Step_C18_0012",
+            "node_name": "Step_C18_0014",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2100,7 +2133,7 @@
             "model_name": "0603_0.90mm.STEP"
           },
           {
-            "node_name": "Step_C19_0004",
+            "node_name": "Step_C19_0008",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2108,7 +2141,7 @@
             "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C1_0032",
+            "node_name": "Step_C1_0030",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2196,7 +2229,7 @@
             "model_name": "CAPC0604X03L.step"
           },
           {
-            "node_name": "Step_C2_0009",
+            "node_name": "Step_C2_0011",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2244,7 +2277,7 @@
             "model_name": "CAPC0604X03L.step"
           },
           {
-            "node_name": "Step_C35_0042",
+            "node_name": "Step_C35_0044",
             "association": "component",
             "side": "bottom",
             "source": "step",
@@ -2284,7 +2317,7 @@
             "model_name": "CAPC0604X03L.step"
           },
           {
-            "node_name": "Step_C3_0033",
+            "node_name": "Step_C3_0031",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2308,15 +2341,15 @@
             "model_name": "CAPC0604X03L.step"
           },
           {
-            "node_name": "Step_C42_0030",
+            "node_name": "Step_C42_0000",
             "association": "component",
             "side": "top",
             "source": "step",
             "designator": "C42",
-            "model_name": "0603_0.90mm.STEP"
+            "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C43_0007",
+            "node_name": "Step_C43_0009",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2324,23 +2357,23 @@
             "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C44_0029",
+            "node_name": "Step_C44_0002",
             "association": "component",
             "side": "top",
             "source": "step",
             "designator": "C44",
-            "model_name": "User Library-cap_0402.step"
+            "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C45_0027",
+            "node_name": "Step_C45_0001",
             "association": "component",
             "side": "top",
             "source": "step",
             "designator": "C45",
-            "model_name": "User Library-cap_0402.step"
+            "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C4_0034",
+            "node_name": "Step_C4_0032",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2348,7 +2381,7 @@
             "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C5_0035",
+            "node_name": "Step_C5_0033",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2356,15 +2389,15 @@
             "model_name": "0603_0.90mm.STEP"
           },
           {
-            "node_name": "Step_C6_0054",
+            "node_name": "Step_C6_0041",
             "association": "component",
-            "side": "top",
+            "side": "bottom",
             "source": "step",
             "designator": "C6",
             "model_name": "CAPC0604X03L.step"
           },
           {
-            "node_name": "Step_C7_0037",
+            "node_name": "Step_C7_0035",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2372,7 +2405,7 @@
             "model_name": "0603_0.90mm.STEP"
           },
           {
-            "node_name": "Step_C8_0036",
+            "node_name": "Step_C8_0034",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2380,7 +2413,7 @@
             "model_name": "0402_0.55mm.STEP"
           },
           {
-            "node_name": "Step_C9_0038",
+            "node_name": "Step_C9_0036",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2388,7 +2421,7 @@
             "model_name": "0603_0.90mm.STEP"
           },
           {
-            "node_name": "Step_D1_0013",
+            "node_name": "Step_D1_0015",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2396,7 +2429,7 @@
             "model_name": "SOD-323.step"
           },
           {
-            "node_name": "Step_D2_0001",
+            "node_name": "Step_D2_0005",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2404,12 +2437,12 @@
             "model_name": "SOD-323.step"
           },
           {
-            "node_name": "Step_J2_0014",
+            "node_name": "Step_J2_0003",
             "association": "component",
             "side": "top",
             "source": "step",
             "designator": "J2",
-            "model_name": "FTSH-105-01-X-DV-K-A.step"
+            "model_name": "FTSH-105-01-L-DV-K-TR.stp"
           },
           {
             "node_name": "Step_R10_0086",
@@ -2444,7 +2477,7 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R15_0049",
+            "node_name": "Step_R15_0051",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2460,7 +2493,7 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R17_0048",
+            "node_name": "Step_R17_0050",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2468,7 +2501,7 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R18_0047",
+            "node_name": "Step_R18_0049",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2476,7 +2509,7 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R19_0052",
+            "node_name": "Step_R19_0053",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2492,7 +2525,7 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R20_0051",
+            "node_name": "Step_R20_0052",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2500,19 +2533,27 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R21_0050",
+            "node_name": "Step_R21_0040",
             "association": "component",
-            "side": "top",
+            "side": "bottom",
             "source": "step",
             "designator": "R21",
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R22_0046",
+            "node_name": "Step_R22_0048",
             "association": "component",
             "side": "top",
             "source": "step",
             "designator": "R22",
+            "model_name": "RESC1005X04L.step"
+          },
+          {
+            "node_name": "Step_R23_0038",
+            "association": "component",
+            "side": "top",
+            "source": "step",
+            "designator": "R23",
             "model_name": "RESC1005X04L.step"
           },
           {
@@ -2540,7 +2581,7 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R5_0041",
+            "node_name": "Step_R5_0043",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -2564,7 +2605,7 @@
             "model_name": "RESC1005X04L.step"
           },
           {
-            "node_name": "Step_R8_0053",
+            "node_name": "Step_R8_0054",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -3188,7 +3229,7 @@
             "model_name": "ct-sot-23-5.stp"
           },
           {
-            "node_name": "Step_U4_0002",
+            "node_name": "Step_U4_0006",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -3196,7 +3237,7 @@
             "model_name": "User Library-sot143.step"
           },
           {
-            "node_name": "Step_U5_0040",
+            "node_name": "Step_U5_0042",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -3204,7 +3245,7 @@
             "model_name": "step_temp.STEP"
           },
           {
-            "node_name": "Step_U6_0000",
+            "node_name": "Step_U6_0004",
             "association": "component",
             "side": "top",
             "source": "step",
@@ -3212,7 +3253,7 @@
             "model_name": "User Library-SOIC8_(ATTINY12).step"
           },
           {
-            "node_name": "Step_X1_0044",
+            "node_name": "Step_X1_0046",
             "association": "component",
             "side": "top",
             "source": "step",
